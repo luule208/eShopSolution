@@ -9,13 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.Data", "eShop
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.Application", "eShopSolution.Application\eShopSolution.Application.csproj", "{D9199776-AE5D-4545-8BE8-B2881620804F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6FB0E725-90ED-4835-8803-AB6170086EBD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution Items", "0. Solution Items", "{6FB0E725-90ED-4835-8803-AB6170086EBD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.Utilities", "eShopSolution.Utilities\eShopSolution.Utilities.csproj", "{313EBD68-5AAB-46FB-91E3-CAABF26D7033}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.ViewModels", "eShopSolution.ViewModels\eShopSolution.ViewModels.csproj", "{F8E3A578-F9E6-47CA-931C-264AE3D1CD97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.BackendApi", "eShopSolution.BackendApi\eShopSolution.BackendApi.csproj", "{1282ABE8-7128-44F6-BFCE-FFAFC0DFAC43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.BackendApi", "eShopSolution.BackendApi\eShopSolution.BackendApi.csproj", "{1282ABE8-7128-44F6-BFCE-FFAFC0DFAC43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Infrastructure", "1. Infrastructure", "{F007EE07-AC8D-4A76-AD0F-3F82C37CFB96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain", "2. Domain", "{51B1919E-95F5-4B05-B155-BAD1994414D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Hosts", "3. Hosts", "{9894CF37-4A70-4EFC-8E75-C3F7A9D1F7BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +56,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{863822FE-05BE-444F-980C-D303EC1312D9} = {9894CF37-4A70-4EFC-8E75-C3F7A9D1F7BA}
+		{DB8063E5-E7AC-444B-B6E1-B936E8ACE74C} = {51B1919E-95F5-4B05-B155-BAD1994414D6}
+		{D9199776-AE5D-4545-8BE8-B2881620804F} = {51B1919E-95F5-4B05-B155-BAD1994414D6}
+		{313EBD68-5AAB-46FB-91E3-CAABF26D7033} = {F007EE07-AC8D-4A76-AD0F-3F82C37CFB96}
+		{F8E3A578-F9E6-47CA-931C-264AE3D1CD97} = {F007EE07-AC8D-4A76-AD0F-3F82C37CFB96}
+		{1282ABE8-7128-44F6-BFCE-FFAFC0DFAC43} = {9894CF37-4A70-4EFC-8E75-C3F7A9D1F7BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67F4C02A-E01E-4C30-9551-D1A3D4EDD614}
